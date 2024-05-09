@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DDCET Exam Chatbot</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+    
+        #chat-container {
+            max-width: 600px; /* Decrease the maximum width */
+            margin: 20px auto;
+            background-color: #2d2d2d;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+    
+        #chat-box {
+            padding: 20px;
+            overflow-y: auto;
+            max-height: 400px; /* Decrease the maximum height */
+            background-color: #2d2d2d;
+            border-bottom: 1px solid #444;
+        }
+    
+        .message-container {
+            margin: 10px 0;
+        }
+    
+        .user-message {
+            background-color: #5cb85c;
+            color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            margin-right: 20px;
+            text-align: right;
+        }
+    
+        .bot-message {
+            background-color: #337ab7;
+            color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            margin-left: 20px;
+            text-align: left;
+        }
+    
+        #user-input {
+            display: flex;
+            padding: 10px;
+            background-color: #444;
+        }
+    
+        #user-message {
+            flex: 1;
+            padding: 8px;
+            margin-right: 10px;
+            border: none;
+            border-radius: 3px;
+            background-color: #333;
+            color: #ffffff;
+        }
+    
+        #send-button {
+            padding: 8px;
+            cursor: pointer;
+            border: none;
+            border-radius: 3px;
+            background-color: #5cb85c;
+            color: #ffffff;
+        }
+    
+        #mic-container {
+            padding: 10px;
+            background-color: #444;
+        }
+    
+        #mic-icon {
+            padding: 5px;
+            cursor: pointer;
+            border: none;
+            border-radius: 50%;
+            background-color: #5cb85c;
+            color: #ffffff;
+        }
+    </style>      
+</head>
+
+<body>
+    <h1 style="text-align: center; color: #5cb85c;">DDCET Exam Chatbot</h1>
+    <div id="chat-container">
+        <div id="chat-box"></div>
+        <div id="user-input">
+            <input type="text" id="user-message" placeholder="Type your message..." onkeydown="handleKeyPress(event)">
+            <span style="margin-right: 10px;"></span> <!-- Adding space between input bar and mic icon -->
+            <button id="mic-icon" onclick="startSpeechRecognition()">
+                🎤
+            </button>
+            <span style="margin-right: 10px;"></span> <!-- Adding space between mic icon and send button -->
+            <button id="send-button" onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script>
+        function sendMessage() {
+            var userMessage = document.getElementById("user-message").value;
+            if (userMessage.trim() === "") return;
+
+            // Append user message with appropriate styling
+            document.getElementById("chat-box").innerHTML += `
+                <div class="message-container">
+                    <p class="user-message">${userMessage}</p>
+                </div>`;
+
+            // Make an AJAX request to the server to get the bot's response
+            fetch("/get_response", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/x-www-form-urlencoded",
+                },
+                body: "user_message=" + encodeURIComponent(userMessage),
+            })
+            .then(response => response.text())
+            .then(botResponse => {
+                // Format bot response
+                const formattedResponse = formatBotResponse(botResponse);
+
+                // Append formatted bot response with appropriate styling
+                document.getElementById("chat-box").innerHTML += formattedResponse;
+
+                // Clear user input field
+                document.getElementById("user-message").value = "";
+
+                // Scroll to the bottom of the chat box
+                document.getElementById("chat-box").scrollTop = document.getElementById("chat-box").scrollHeight;
+            })
+            .catch(error => console.error("Error fetching response:", error));
+        }
+
+        function handleKeyPress(event) {
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        }
+
+        function startSpeechRecognition() {
+            const recognition = new webkitSpeechRecognition(); // Use webkitSpeechRecognition for Chrome
+
+            // Set recognition properties
+            recognition.continuous = false;
+            recognition.interimResults = false;
+            recognition.lang = 'en-US';
+
+            // Start recognition
+            recognition.start();
+
+            // Handle recognition result
+            recognition.onresult = function (event) {
+                const result = event.results[0][0].transcript;
+                document.getElementById('user-message').value = result;
+                sendMessage();
+            };
+
+            // Handle recognition error
+            recognition.onerror = function (event) {
+                console.error('Speech recognition error:', event.error);
+            };
+        }
+
+        function formatBotResponse(response) {
+            // Split the response into individual sentences
+            const sentences = response.split('. ');
+
+            // Create an HTML string to store the formatted response
+            let formattedResponse = '';
+
+            // Iterate through each sentence and wrap them in <p> tags
+            sentences.forEach(sentence => {
+                formattedResponse += `<div class="message-container"><p class="bot-message">${sentence}</p></div>`;
+            });
+
+            // Return the formatted response
+            return formattedResponse;
+        }
+    </script>
+</body>
+</html>
+

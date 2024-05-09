@@ -1,0 +1,323 @@
+
+{
+	"intents": [
+		{
+			"tag": "ddcet_committee",
+			"patterns": ["DDCET Committee","Diploma to Degree Common Entrance Test Committee","Committee members","Constitution of DDCET Committee","Roles of DDCET Committee","Functions of DDCET Committee","Responsibilities of DDCET Committee","DDCET oversight group","Who coordinates DDCET?","Members of DDCET Committee"
+			],
+			"responses": [
+				"The DDCET Committee is responsible for coordinating day-to-day matters related to the Diploma to Degree Common Entrance Test (DDCET). The committee includes members such as the Commissioner Technical Education (Chairman), Joint Director of Technical Education (Member Secretary), Member Secretary of the Admission Committee - ACPC, Registrar of Gujarat Technological University, and Officers on Special Duty - ACPC."
+			]
+		},
+		{
+			"tag": "result_declaration",
+			"patterns": ["DDCET result declaration","Check DDCET result online","DDCET Rank announcement","Result of DDCET","View DDCET results","Outcome of DDCET","Access DDCET scores","Ranking in DDCET"
+			],
+			"responses": [
+				"The result and DDCET Rank for the current year will be declared online. Candidates can check their DDCET result and Rank online for the current year. Stay informed about the online announcement of DDCET results and Ranks."
+			]
+		},
+		{
+			"tag": "ddcet_syllabus",
+			"patterns": ["DDCET syllabus","Syllabus for DDCET exam","DDCET exam syllabus link","What is the syllabus for DDCET?","Where can I find the DDCET syllabus?","DDCET syllabus PDF","View DDCET syllabus","DDCET exam syllabus document"
+			],
+			"responses": [
+				"You can view the DDCET exam syllabus by clicking on the following link: <a href='https://drive.google.com/file/d/1cjA3QmJPravcYNw4mLoPhHalrGEJAP4a/view?usp=drivesdk' target='_blank'>DDCET Syllabus PDF</a>. This document provides detailed information about the topics covered in the DDCET examination."
+			]
+		},
+		{
+			"tag": "ddcet_registration_steps",
+			"patterns": ["DDCET registration process steps","What is the procedure for Registration for Diploma to Degree Admission?","Registration process for Diploma to Degree Admission","How to enroll for Diploma to Degree Admission?","Steps for Diploma to Degree Admission registration","Diploma to Degree Admission application process","Steps for DDCET exam registration","DDCET exam registration guide","DDCET registration process link","What are the steps for DDCET registration?","Where can I find the DDCET registration process steps?","DDCET registration process document","View DDCET registration steps","Suggested procedure for DDCET","DDCET procedure","Allotment procedure","Process for DDCET","Steps for DDCET","Guidelines for DDCET","Instructions for DDCET","How to apply for DDCET","DDCET examination registration","Register for DDCET","Online registration for DDCET","How to register for DDCET","Enroll for DDCET","Sign up for DDCET","Application for DDCET","Registration process for DDCET"
+			],
+			"responses": [
+				"To facilitate the admission process, the government has outlined a procedure for the Diploma to Degree Common Entrance Test (DDCET).Registration for the DDCET examination can be completed online. To participate in DDCET, candidates need to register online for the examination. Ensure online registration for DDCET to be eligible for the admission process. You can find the steps for the DDCET exam registration process by clicking on the following link: <a href='https://drive.google.com/file/d/1Q3ftCN73Wt8t2_R9BzbKsQ1z4GgqZRSy/view?usp=drive_link' target='_blank'>DDCET Registration Process Steps PDF</a>. This document provides a comprehensive guide on how to register for the DDCET exam. Candidate has to fill a separate application form on the website: https://gujacpc.admissions.nic.in/. The detailed advertisement and schedule will be published on the ACPC Website."
+			]
+		},
+		{
+			"tag": "ddcet_sample_paper_2024_2025",
+			"patterns": ["DDCET sample paper for 2024-2025","Sample paper for DDCET exam 2024-2025","DDCET exam sample paper link","Where can I find the DDCET sample paper for 2024-2025?","DDCET exam 2024-2025 sample paper","View DDCET sample paper for the year 2024-2025"
+			],
+			"responses": [
+				"You can access the sample paper for the DDCET exam for the year 2024-2025 by clicking on the following link: <a href='https://drive.google.com/file/d/1BedjC8qSI02y2vRhekafI88iFh-iNk05/view?usp=drive_link' target='_blank'>DDCET Sample Paper 2024-2025</a>. This sample paper serves as a helpful resource for candidates preparing for the upcoming DDCET examination."
+			]
+		},						
+		{
+			"tag": "validity",
+			"patterns": ["DDCET exam validity","Admission validity for DDCET","DDCET exam valid for how long","Validity of DDCET results","Duration of DDCET exam validity","Admission timeline with DDCET","Expiration of DDCET results","Timeframe for DDCET admission","syudents able for this exam","Validity of DDCET merit","validity of ddcet exam"
+			],
+			"responses": [
+				"DDCET exam is valid only for admission for the current year. Ensure that you use your DDCET Rank for admission in the same year of examination. Admission based on DDCET is applicable only for the year in which the exam is taken."
+			]
+		},
+		{
+			"tag": "priority",
+			"patterns": ["DDCET in processing vacant seats","Priority for DDCET in seat allocation","Vacant seats processing after online round","DDCET seats allocation","Seat prioritization in DDCET","DDCET seats filling","Order of seat allocation in DDCET","DDCET rank importance"
+			],
+			"responses": [
+				"DDCET exam holds the first priority in processing vacant seats after the online round. For vacant seats, the DDCET exam is given priority in the admission process. After the online round, vacant seats are processed with first priority given to candidates with DDCET ranks."
+			]
+		},
+			{
+			"tag": "GTU_overview",
+			"patterns": ["Overview of GTU", "GTU affiliation with DDCET"],
+			"responses": ["GTU, located in Gujarat, India, is a public state university with 486 affiliated colleges. DDCET serves as a bridge for students aspiring to shift from diploma courses to degree programs within the university."]
+			},
+			{
+			"tag": "important_dates",
+			"patterns": ["DDCET application process dates", "Important dates for DDCET","dates"],
+			"responses": ["The online registration for DDCET typically opens in February 2024, and the exam is scheduled to take place on any Sunday of March 2024."]
+			},
+			{
+			"tag": "selection_process",
+			"patterns": ["DDCET selection process", "Merit determination in DDCET"],
+			"responses": ["The DDCET Rank is available online, and the merit obtained in the exam is valid for the respective year only."]
+			},
+			{
+			"tag": "additional_resources",
+			"patterns": ["DDCET preparation resources", "website for DDCET preparation"],
+			"responses": ["QUALEXE will offer well-designed test series and tournaments to facilitate quality exercise for DDCET candidates. Candidates will be able to appear in DDCET-like test series for better practice and compare their performance with other candidates."]
+			},
+
+			{
+			"tag": "stay_updated",
+			"patterns": ["Stay updated on DDCET announcements", "How to stay updated on DDCET changes"],
+			"responses": ["For the latest and most accurate information, candidates are advised to regularly check the official GTU website and communications from the examination office. Additionally, all the latest updates about the DDCET Exam will be available on the QUALEXE website. So, keep visiting our website regularly for any announcements or changes."]
+			},
+		{
+			"tag": "fee",
+			"patterns": [
+				"DDCET exam fee","What is the Registration fee for DDCET?","Registration fee for DDCET","Cost of DDCET registration","Fee for DDCET application","Amount for DDCET registration","fees for ddect exam ","Fee for DDCET","Cost of DDCET exam","How much is the DDCET exam fee","Payment for DDCET","Charges for DDCET","DDCET application fee","Fee structure for DDCET","Admission process registration fees","Fees for admission registration","Registration fees for admission process","Charges for admission registration","Cost of registration for admission","Fee structure for admission process","Admission application fee","Fee for enrollment in admission process","fees for exam"
+			],
+			"responses": [
+				"Registration fees for the admission process are separate from the DDCET exam fee. Candidates must pay separate registration fees for the admission process, in addition to the DDCET exam fee. Be aware that the registration fees for the admission process are distinct from the DDCET examination fee. The DDCET exam fee for candidates is Rs.250 Candidates need to pay a fee of Rs.250/- for the DDCET examination. Ensure payment of Rs.250/- as the examination fee for DDCET."
+			]
+		},
+		{
+			"tag": "physics_study_material",
+			"patterns": ["Physics study material","Physics MCQs with solutions","Physics notes","Where can I find physics study material?","Physics resources"
+			],
+			"responses": [
+				"You can access the physics study material, including MCQs with solutions and notes, by clicking on the following link: <a href='https://drive.google.com/file/d/1gtBSjnJ9c--Q2QPc635a14o4vC-r3TRD/view?usp=drive_link' target='_blank'>Physics Study Material</a>."
+			]
+		},
+		{
+			"tag": "computer_science_material",
+			"patterns": ["Computer science study material","Computer science notes","Computer science MCQs","Computer science solutions"
+			],
+			"responses": [
+				"Here is the link to computer science study materials, including MCQs with solutions and notes: <a href='https://drive.google.com/file/d/1qYdri5iH0-GX2M_SMCMW6ospyDsGsYce/view?usp=drive_link' target='_blank'>Computer Science Study Material</a>."
+			]
+		},					
+		{
+			"tag": "chemistry_study_material",
+			"patterns": ["Chemistry study material","Chemistry MCQs with solutions","Chemistry notes","Where can I find chemistry study material?","Chemistry resources"
+			],
+			"responses": [
+				"You can access the chemistry study material, including MCQs with solutions and notes, by clicking on the following link: <a href='https://drive.google.com/file/d/1gtBSjnJ9c--Q2QPc635a14o4vC-r3TRD/view?usp=drive_link' target='_blank'>Chemistry Study Material</a>."
+			]
+		},		
+		{
+			"tag": "math_study_material",
+			"patterns": ["Math study material","mathematics","Maths MCQs with solutions","Where can I find math study material?","Mathematics study resources","Math MCQs link"
+			],
+			"responses": [
+				"You can access the math study material containing MCQs with solutions by clicking on the following link: <a href='https://drive.google.com/file/d/1zHyA1CIV66JSFcgtN3dM_2Md6oSD83MC/view?usp=drive_link' target='_blank'>Math MCQs with Solutions</a>."
+			]
+		},		
+		{
+			"tag": "exam_mode",
+			"patterns": ["DDCET exam mode","Mode of DDCET examination","How is DDCET conducted","DDCET test format","Nature of DDCET exam","Process of DDCET assessment","DDCET evaluation method","Conducting DDCET offline","Offline assessment for DDCET","how the ddcet exam taken"
+			],
+			"responses": [
+				"DDCET exam will be conducted offline as a Paper Based Test (PBT) at various centers in the state. The mode of DDCET examination is offline, conducted as a Paper Based Test (PBT) at different centers across the state. Candidates should be prepared for the offline Paper Based Test (PBT) format of the DDCET examination at designated centers."
+			]
+		},
+		{
+			"tag": "ddcet_exam_structure",
+			"patterns": ["DDCET exam structure","What is the Marking System for DDCET?","Marking system of DDCET","Scoring method in DDCET","How are marks awarded in DDCET?","Evaluation process of DDCET","DDCET paper pattern","Negative marking in DDCET","DDCET question format","Pattern of DDCET exam","DDCET assessment criteria","DDCET marking scheme","DDCET scoring system","Format of DDCET questions","is there a negative marking in ddcet exam","DDCET exam pattern", "Details about DDCET exam pattern"
+			],
+			"responses": [
+				"The DDCET exam structure comprises two papers: Basics of Science and Engineering, and Aptitude Test (Mathematics and Soft Skill) for Engineering students, and Basics of Pharmacy and Aptitude Test (Soft Skill) for Pharmacy students. Each paper consists of multiple-choice questions, with two marks awarded for each correct answer. However, for each wrong answer or multiple attempted answers, a penalty of 0.5 (half) mark is deducted. Unattempted questions receive zero marks. The final merit list is prepared based on the net score obtained after considering the negative marking, ensuring fairness and accuracy in the assessment process.  The DDCET exam consists of two papers: BE 01 (Basics of Science and Engineering) and BE 02 (Aptitude Test - Mathematics and soft skills). Each paper has 50 questions, with a total of 100 questions and 200 marks. The duration for the exam is 150 minutes. Each correct answer in DDCET is awarded 2 marks, while each wrong answer incurs a 0.5 negative mark."
+			]
+		},
+		{
+			"tag": "government_resolution",
+			"patterns": ["Government of Gujarat","Department of Education","Resolution No.: PVS/102020/61/S","Dated 23/08/2023","Resolution regarding DDCET","Educational department resolution","Gujarat government decree","Official resolution for DDCET","Government announcement on DDCET"
+			],
+			"responses": [
+				"The Government of Gujarat, Department of Education, issued Resolution No.: PVS/102020/61/S on 23/08/2023, focusing on the implementation and regulation of DDCET-based admission processes. This resolution outlines the framework and guidelines to be followed by educational institutions and authorities for effective execution."
+			]
+		},
+		{
+			"tag": "committee_recommendations",
+			"patterns": ["Admission Process Committee","Diploma to Degree Engineering/Pharmacy Committee","Recommendations","Dated 23/08/2022","Admission process suggestions","Committee suggestions for DDCET","Guidelines from admission committee","Committee advice on DDCET","Panel recommendations on admission"
+			],
+			"responses": [
+				"The recommendations put forth by the Admission Process Committee for Diploma to Degree Engineering/Pharmacy on 23/08/2022 are pivotal in shaping the admission procedures. These recommendations are carefully considered by educational authorities to ensure fairness, transparency, and efficiency in the admission process."
+			]
+		},
+		{
+			"tag": "nodal_agency",
+			"patterns": ["Nodal Agency for DDCET Exam","Gujarat Technological University","DDCET examination coordination","Role of GTU in DDCET","Agency overseeing DDCET","Coordination of DDCET by GTU","Responsibilities of nodal agency","GTU's involvement in DDCET","Role of university in DDCET","Who will conduct DDCET?","Conduct of DDCET","Authority responsible for DDCET","Which organization conducts DDCET?","DDCET examination management"
+			],
+			"responses": [
+				"Gujarat Technological University assumes the role of the nodal agency for the DDCET examination, collaborating closely with the DDCET Committee to ensure seamless coordination and execution of the examination process. From registration to result declaration, the university plays a pivotal role in facilitating a smooth and efficient examination experience for candidates."
+			]
+		},
+		{
+			"tag": "meaning_of_ddcet",
+			"patterns": [
+			  "What is the Meaning of DDCET?","DDCET marking system", "Negative markings in DDCET","Meaning of DDCET","Define DDCET","What does DDCET stand for?","Explanation of DDCET","What is DDCET?", "What does DDCET stand for?", "DDCET relevance to GTU"
+			],
+			"responses": [
+			  "DDCET stands for Diploma to Degree Common Entrance Test. Diploma to Degree Common Entrance Test for admission in D to D Engineering/Pharmacy. The government has introduced Diploma to Degree Common Entrance Test (DDCET) for admission into the second year (third semester) of engineering and pharmacy. Admissions for the second year in engineering and pharmacy are now based on the Diploma to Degree Common Entrance Test (DDCET). The admission process for the second year in engineering and pharmacy involves the Diploma to Degree Common Entrance Test (DDCET). It is a crucial examination at Gujarat Technological University (GTU) facilitating the transition from diploma to degree programs in various disciplines. "
+			]
+		  },
+		  {
+			"tag": "need_of_ddcet_examination",
+			"patterns": ["What is the Need of DDCET Examination?","Need of DDCET Examination","Why is DDCET exam required?","Purpose of DDCET examination","Importance of DDCET test"
+			],
+			"responses": [
+			  "It is found that there is a huge variation of students applied from different boards, and accordingly allocation of the seats is also varied. As the allocation of seats is based on the prorate of applicants from different boards. Accordingly, it can be summed up that particularly the students passing the diploma from small board are getting lesser in number of seats compared major board, leads students to dissatisfaction or feels they are not given equal chance of admission. Also, due to a greater number of Boards, distribution of seats and preparation of merit list has become more complicated. Moreover, many more private institution/Universities are increasing, as a result, many universities award diploma in engineering and therefore, distribution of seats and preparation of merit list has become more complicated in the future. In order to avoid such discrepancy, ambiguity, dissatisfaction among the students, and to bring all applicant students on a common and equal platform, it is suggested to introduce an entrance examination - Diploma to Degree Common Entrance Test (DDCET)."
+			]
+		  },
+		  {
+			"tag": "register_for_ddcet",
+			"patterns": ["How to Register for DDCET?","Register for DDCET","DDCET registration process","Steps for DDCET registration","Enrollment for DDCET","ddcet exam registration link","When does registration process for DDCET start?","Registration process start for DDCET","DDCET registration commencement date","Starting date for DDCET registration","When can I apply for DDCET?"
+			],
+			"responses": [
+			  "Registration for DDCET can be done on the website: https://gujacpc.admissions.nic.in/  probably DDCET registration process starts in the month of February of corresponding academic year."
+			]
+		  },
+		  {
+			"tag": "who_can_apply_ddcet",
+			"patterns": ["Who can apply for DDCET?","Eligibility for DDCET","Who is eligible for DDCET?","Requirements for DDCET application","Qualifications needed for DDCET","which students can give ddcet exam","who can give this ddcet exam"
+			],
+			"responses": [
+			  "Eligibility for DDCET: Students who have passed in Diploma from a recognized Board/University in the state of Gujarat in that admission year as well as students who have passed in Diploma from a recognized Board/University across the country for 05% seats in Government Institutions (Candidates appearing in the last semester will be eligible). Candidates who have passed Diploma from a recognized Board/University in the State of Gujarat in the previous year and seeking admission in Degree. Students having Bachelor of Science and Diploma Vocational from a recognized Board/University in Gujarat state as per provision of AICTE. Students who have passed in Diploma from Board/University from outside State as per existing rules. Candidate shall be fulfilling the AICTE eligibility criteria."
+			]
+		  },
+		  {
+			"tag": "select_exam_centre_ddcet",
+			"patterns": ["How to select the exam centre?","Exam centre selection for DDCET","Choosing DDCET exam venue","Procedure for picking DDCET test center","Selection of DDCET examination city","exam center","exam center city"
+			],
+			"responses": [
+			  "Candidate has to give three choices of examination cities and district during the registration process. While selection of examination cities/ District: modification or alternation is not allowed at any circumstances after registration."
+			]
+		  },
+		  {
+			"tag": "prepare_merit_list_ddcet",
+			"patterns": [
+			  "How the merit list shall be prepared for D to D Admission?","Prepare merit list for DDCET","Merits calculation for DDCET admission","Compilation of DDCET merit list","Merit list preparation for DDCET","How merit is prepared if Students having equal marks in DDCET Exam?","Equal marks in DDCET Exam merit rank preparation","Tiebreaker for DDCET merit list","Merit determination in case of tied DDCET scores","Procedure for resolving equal marks in DDCET"
+			],
+			"responses": [
+			  "Merit will be prepared based on the marks obtained in the DDCET examination. If a candidate is absent in the examination, then the merit rank will not be generated. Students having equal marks for merit rank of DDCET in the said examination will be given priority as follows. (Key of Merit): Marks obtained in Section 01 (BE 01) for Engineering and BPH 01 for Pharmacy. Marks obtained in Section 02 (BE 02) for Engineering and BPH 02 for Pharmacy. Lowest deduction marks (Negative marks) in the said examination. Section 01 (BE 01) for Engineering and BPH 01 for Pharmacy have the lowest cut off marks (Negative marks). Section 02 (BE 02) for Engineering and BPH 02 for Pharmacy have the lowest cut off marks (Negative marks). Date of Birth (Older will be considered first)."
+			]
+		  },
+		  {
+			"tag": "validity_of_ddcet_result",
+			"patterns": ["What is the Validity of DDCET Examination Result ?","Validity period of DDCET result","Duration for DDCET result","How long is DDCET result valid?","Expiry date of DDCET result"
+			],
+			"responses": [
+			  "The validity of the Result of DDCET is only for the respective admission year."
+			]
+		  },
+		  {
+			"tag": "registration_fee_for_dd_admission",
+			"patterns": ["What is the registration fee for Diploma to Degree Admission?","Registration fee for Diploma to Degree Admission","Cost of Diploma to Degree Admission registration","Fee for Diploma to Degree Admission application","Amount for Diploma to Degree Admission registration","admision fees","only adission fees "
+			],
+			"responses": [
+			  "The registration fee for Diploma to Degree Admission is INR 350/-."
+			]
+		  },
+		  {
+			"tag": "updates_information_ddcet_dd_admission",
+			"patterns": ["Updates and more information of DDCET Examination and Diploma to Degree Admission Process","More information about DDCET Examination and Diploma to Degree Admission","Latest news on DDCET Examination and Diploma to Degree Admission","DDCET and Diploma to Degree Admission update " ,"Recent developments in DDCET Examination and Diploma to Degree Admission"
+			],
+			"responses": [
+			  "Candidates are advised to visit the websites of the admission committee: https://acpc.gujarat.gov.in/"
+			]
+		  },
+		  {
+			"tag": "rules_and_regulations_ddcet",
+			"patterns": ["What are the Rules and Regulations for DDCET examination?","Rules and Regulations for DDCET examination","DDCET exam guidelines","Regulations for DDCET test","Policies for DDCET examination"
+			],
+			"responses": [
+			  "Rules and Regulation for DDCET examination will be available on websites of admission committee: https://acpc.gujarat.gov.in/"
+			]
+		  },
+		  {
+			"tag": "communication_address_ddcet",
+			"patterns": ["What is the communication address for DDCET?","Communication address for DDCET","Contact details for DDCET","Address of DDCET committee","Where to reach out for DDCET inquiries"
+			],
+			"responses": [
+			  "Member Secretary, Admission Committee for Professional Courses, Admission Building, Nr. Library, L. D. College of Engg. Campus, Ahmedabad 380015, INDIA, Ph. +91-79-26566000, E-Mail: acpc.d2d@gmail.com"
+			]
+		  },
+		  {
+			"tag": "calculator_instructions_ddcet",
+			"patterns": ["Instructions regarding calculator use in DDCET Examination","Allowed calculators in DDCET Examination","Can I use a calculator in DDCET?","Calculator guidelines for DDCET","What types of calculators are permitted in DDCET?","calculator"
+			],
+			"responses": [
+			  "All students appearing for the DDCET Examination must adhere to the following instructions regarding the use of calculators: Permitted calculators for DDCET Examination include:1. Simple Calculators\n2. Non-Programmable Scientific CalculatorsPlease note that programmable scientific calculators and electronic devices capable of storing information and solving mathematical equations based on stored data in memory are strictly prohibited in the DDCET Examination."
+			]
+		  },
+		  {
+			"tag": "medium_of_examination_ddcet",
+			"patterns": ["Medium of Examination for DDCET","What languages are used in DDCET exams?","In which languages are the DDCET question papers available?","exam conduct in which language","question paper comes in which language","language of question paper"
+			],
+			"responses": [
+			  "The medium of examination for DDCET is as follows:  1. The question papers of the examination are in Gujarati and English languages for Engineering Candidates. 2. The question papers of the examination are in English language for Pharmacy Candidates."
+			]
+		  },
+		  {
+			"tag": "admit_card_instructions_ddcet",
+			"patterns": ["Instructions for DDCET Admit Card","How to download DDCET Admit Card?","What are the guidelines for DDCET Admit Card?","Can I make changes to my DDCET Admit Card?","What should I do if there is an error on my DDCET Admit Card?"
+			],
+			"responses": ["Please find below the instructions for DDCET Admit Card:1. Candidates can download their online Admit Card (Hall-Ticket) 05 days prior to the examination through the login ID.2. Entry to the examination center or examination hall will not be granted under any circumstance without the Admit Card.3. Candidates cannot make any changes to the details/information on the Admit Card by themselves.4. It is advised to keep the Admit Card in good condition until the admission procedure is completed.5. Candidates must sign the Admit Card and also obtain the signature of the Block Superv6. Verify the details on the Admit Card. If there is any error, contact the DDCET Cell, ACPC Building, L D College of Engineering immediately for clarification/correction."
+			]
+		  },
+		  {
+			"tag": "entry_in_examination_hall_and_registration_ddcet",
+			"patterns": ["How do I enter the exam hall for DDCET?","What's the procedure for DDCET exam hall entry?","Do I need to register before entering the DDCET exam hall?","Can you explain the entry process for DDCET?","When should I arrive at the exam hall for DDCET?","What documents do I need to bring for DDCET exam hall entry?","Are there any specific rules for entering the DDCET exam hall?","Can you guide me through the entry formalities for DDCET?","Do I need to show any ID for DDCET exam hall entry?","What's the protocol for entering the DDCET exam hall?"
+			],
+			"responses": [
+			  "Here are the instructions for entry in the examination hall and necessary registration for DDCET Examinatio1. Candidates shall take entry in the examination hall as per the time schedule.2. After commencement of examination, no candidate will be allowed to enter the examination hall under any circumstance3. Candidates must sit on the Seat Number mentioned in the Admit Card as per the sitting arrangement of the respective examination hal4. To get admission in the examination hall, candidates must show the Admit Card to the Superviso5. Except for the respective candidate, no other person will be allowed to enter the examination hal6. No materials such as textbooks, reference literature, electronic devices, etc., are allowed in the examination hall except for Admit Card, pen, Original Photo ID Proof, and Non-Programmable Calculato7. Candidates must enter required information on question booklet and OMR sheet legibly as per the instruction8. Candidates must appear in the examination as per the seat number mentioned in the Admit Car9. Candidates are not allowed to leave the examination hall until the examination is ove10. Candidates must bring a good quality black/blue pen for filling the information and answers in the answer-shee11. Re-examination under any circumstances shall not be conducted for DDCET."
+			]
+		  },
+		  {
+			"tag": "method_of_assessment_ddcet",
+			"patterns": [
+				"How is DDCET assessed?","What's the marking scheme for DDCET?","Explain DDCET assessment.","OMR-based assessment in DDCET?","How are MCQs graded in DDCET?","Marking system in DDCET?","Negative marking in DDCET?","Guidelines for DDCET assessment?","Purpose of 'Not Attempted' in DDCET?","Can answers be changed in DDCET OMR sheet?"
+			],
+			"responses": [
+			  "Here is the method of assessment for DDCET Examination:- 1. The answer-sheet will be examined on the principle of OMR.- 2. Each multiple-choice question carries 2 (Two) marks. For each correct answer, 2 (Two) marks will be given.- 3. For each wrong answer to the multiple-choice question, 0.5 marks will be deducted (negative marking).- 4. 0.5 marks will be deducted (negative marking) if two or more options (answers) are opted for one multiple-choice question.- 5. Unattempted answers will have 0 (Zero) marks. If a candidate does not wish to answer the questions, he/she should select 'E' option (Not Attempted) to avoid negative marks."
+			]
+		  },
+		  {
+			"tag": "rough_work_in_examination_hall_ddcet",
+			"patterns": [
+			  "What is the procedure for doing rough work in the examination hall?","Can I do rough work in the examination hall?","Rules for doing rough work during DDCET examination","Guidelines for rough work in DDCET examination hall","How should I handle rough work in the examination hall?","Instructions for rough work during DDCET exam","Rough work policy in DDCET examination hall","What should I do if I need to do rough work during DDCET exam?","Is rough work allowed on the question paper in DDCET?","Can I use the blank space in the question paper for rough work in DDCET?"
+			],
+			"responses": [
+			  "Here are the guidelines for doing rough work in the examination hall:- If there is a need to do rough work in the examination hall, the same shall be done at the blank space in the question paper. Except this, no rough work shall be done at any other place."
+			]
+		  },
+		  {
+			"tag": "colleges_for_dot_admissions_gujarat",
+			"patterns": ["Where can I find the list of colleges for DOT admissions in Gujarat?","Can you provide the list of colleges offering DOT admissions in Gujarat?","I need information about colleges for DOT admissions in Gujarat.","List of colleges for DOT admissions in Gujarat","Gujarat DOT admissions college list","Colleges offering DOT admissions in Gujarat","Which colleges in Gujarat offer DOT admissions?","Looking for colleges for DOT admissions in Gujarat","Where can I get the list of DOT admission colleges in Gujarat?","Please share the link to the list of colleges for DOT admissions in Gujarat"
+			],
+			"responses": [
+			  "You can find the list of colleges offering DOT admissions in Gujarat in the following link: <a href='https://drive.google.com/file/d/1-84ahOcpQJbbbfdBl6C2ujELjZlO_Vmz/view?usp=drive_link' target='_blank'>List of Colleges for DOT Admissions in Gujarat</a>"
+			]
+		  },
+		  {
+			"tag": "ddcet_exam_resources",
+			"patterns": ["Can you recommend some YouTube channels for DDCET exam preparation?","video resources for study","video","What are the best YouTube channels for DDCET exam?","Which YouTube channels offer DDCET exam courses?","Any suggestions for DDCET exam tutorials on YouTube?","Where can I find online tuition classes for DDCET exam?","Are there any offline tuition classes available for DDCET exam?","Can you recommend DDCET exam courses priced between 500 to 1000 rupees?","Which communities provide study materials for cracking DDCET exam?","Where can I find reading materials for DDCET exam preparation?",    "Best YouTube channels for DDCET","DDCET online classes","Offline tuition classes","DDCET exam courses","Affordable DDCET courses","DDCET study materials","Top DDCET communities"
+			],
+			"responses": ["Sure! Here are some top resources for DDCET exam preparation:.   1 <a href='https://www.youtube.com/@JagrutAwaaz' target='_blank'>Jagrut Awaaz YouTube Channel</a><br>   2 <a href='https://www.youtube.com/@PriyeshsirVidhyapeeth' target='_blank'>Priyeshsir Vidhyapeeth YouTube Channel</a><br>   3 <a href='https://www.youtube.com/@ICONENGINEERINGTUTORIALS' target='_blank'>ICON Engineering Tutorials YouTube Channel</a><br>You can find helpful tutorials and courses on these platforms.<br>For offline tuition classes, you may need to check local institutes or coaching centers in your area.<br>Additionally, you can explore online courses priced between 500 to 1000 rupees for DDCET exam preparation.<br>To access study materials and join communities for DDCET exam preparation, consider searching online forums or educational websites."
+			]
+		  }
+		  
+	]
+}
